@@ -55,15 +55,27 @@ body {
 }
 .details {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
   justify-content: space-between;
-  padding: 20px ;
+  padding: 10px ;
   padding-bottom: 12px;
   border-bottom: 2px solid #ddd;
 }
 .details-ele {
-  border-right: 2px solid #ddd;
-  padding-right: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  font-size: 14px;
+  position: relative;
+  padding-right: 10px;
+}
+.details-ele:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -7px;
+  height: calc(100% + 14px);
+  border-right: 1px solid #ccc;
 }
 .bottom {
   margin-top: 20px;
@@ -86,4 +98,12 @@ body {
   background-color: rgb(41, 40, 40);
   margin-top: 20px;
   height: 40px;
+}
+
+.parent .cardUI:nth-child(2) .img {
+  height: 300px;
+}
+
+.parent .cardUI:nth-child(2) {
+  transform: translateY(100px);
 }

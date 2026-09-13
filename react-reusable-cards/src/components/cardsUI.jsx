@@ -18,11 +18,11 @@ const  Cards = (props) => {
             </div>
 
             <div className="bottom">
-                <span>{props.btmspan1}</span>
-                <span>{props.btmspan2}</span>
-                <span>{props.btmspan3}</span>
-                <button className="btn">{props.button}</button>
-            </div> 
+                {props.btmspan1 && <span>{props.btmspan1}</span>}
+                {props.btmspan2 && <span>{props.btmspan2}</span>}
+                {props.btmspan3 && <span>{props.btmspan3}</span>}
+                {props.button && <button className="btn">{props.button}</button>}
+            </div>
                         
         </div>
 
