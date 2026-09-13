@@ -1,16 +1,103 @@
-# React + Vite
+# 🃏 React Reusable Cards
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React project demonstrating how to create **reusable card components** using **React Components and Props**.
 
-Currently, two official plugins are available:
+The same card component can be reused multiple times with different images, titles, and descriptions by passing different data through props.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+* ♻️ Reusable Card Component
+* 🧩 Component-based UI
+* 📦 Data passed using Props
+* 🖼️ Different images and content for each card
+* 🎨 Custom CSS styling
+* 📱 Clean and responsive layout
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 💡 Design Inspiration
 
-## Expanding the ESLint configuration
+The card design was inspired by a **vacation/travel booking interface**, including concepts such as travel booking, hotel booking, and vacation cards.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+However, the project is **not limited to travel-related content**. The reusable card component can be customized with your own images, titles, descriptions, and other content according to your requirements.
+
+
+## 🧠 Concepts Practiced
+
+* React Components
+* JSX
+* Props
+* Reusable Components
+* `map()` for rendering multiple cards
+* CSS Styling
+
+## 🛠️ Tech Stack
+
+* React.js
+* JavaScript
+* HTML
+* CSS
+* Vite
+
+## 📸 Preview
+
+![React Reusable Cards](./screenshot.png)
+
+## ♻️ How Reusable Is It?
+
+The card component is designed to accept different data through props.
+
+For example:
+
+```jsx
+<Card
+  image="your-image-url"
+  title="Your Title"
+  description="Your description"
+/>
+```
+
+You can replace the content with your own data and reuse the same component for different purposes, such as:
+
+* Travel cards
+* Hotel cards
+* Product cards
+* Blog cards
+* Portfolio cards
+* Event cards
+
+This allows the same component to be used across different projects without creating a new card component from scratch.
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/LataMishra15/React-mini-projects.git
+```
+
+### 2. Navigate to the project
+
+```bash
+cd React-mini-projects/react-reusable-cards
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Then open the local development URL shown in the terminal.
+
+## 🎯 Purpose
+
+This project was created as part of my **React learning journey** to understand how components and props can be used to build reusable user interfaces.
+
+The goal was not only to create a card UI, but to understand how a **single reusable component can be customized with different data**.
+
+More React mini-projects will be added to this repository as I continue learning and building. 🚀
