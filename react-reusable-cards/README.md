@@ -39,7 +39,7 @@ However, the project is **not limited to travel-related content**. The reusable 
 
 ## 📸 Preview
 
-![React Reusable Cards](./screenshot.png)
+![React Reusable Cards](./src/assets/screenshot.png)
 
 ## ♻️ How Reusable Is It?
 
