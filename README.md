@@ -27,7 +27,7 @@ More projects and concepts will be added as I continue learning React 🚀
 * React.js
 * JavaScript
 * HTML
-* CSS
+* Tailwind CSS
 * Vite
 
 ## 🎯 Purpose
